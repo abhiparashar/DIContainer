@@ -1,4 +1,4 @@
 package com.example.dicontainer.interfaces;
 
-public class IPaymentService {
+public interface IPaymentService {
 }
