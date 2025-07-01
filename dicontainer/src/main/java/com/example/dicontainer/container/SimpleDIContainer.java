@@ -25,6 +25,7 @@ public class SimpleDIContainer {
         }
 
         if (resolutionStack.contains(clazz)) {
+            System.out.println("clazz");
             throw new RuntimeException("Circular dependency detected: " + clazz.getName());
         }
 
